@@ -33,13 +33,15 @@ This dashboard is an ideal showcase for a research engineering internship assign
 | **Environment** | `.env` | Manages API keys and configuration variables securely | 
 
 ## 🖼️ Dashboard Screenshots
-![screenshot](images/Screenshot 2025-08-14 230754.png)
-![screenshot](images/Screenshot 2025-08-14 230915.png)
-![screenshot](images/Screenshot 2025-08-14 230943.png)
-![screenshot](images/Screenshot 2025-08-14 231001.png)
-![screenshot](images/Screenshot 2025-08-14 231016.png)
-![screenshot](images/Screenshot 2025-08-14 231033.png)
-![screenshot](images/Screenshot 2025-08-14 231126.png)
+## 🖼️ Dashboard Screenshots
+
+![screenshot](images/Screenshot%202025-08-14%20230754.png)
+![screenshot](images/Screenshot%202025-08-14%20230915.png)
+![screenshot](images/Screenshot%202025-08-14%20230943.png)
+![screenshot](images/Screenshot%202025-08-14%20231001.png)
+![screenshot](images/Screenshot%202025-08-14%20231016.png)
+![screenshot](images/Screenshot%202025-08-14%20231033.png)
+![screenshot](images/Screenshot%202025-08-14%20231126.png)
 
 ## 📋 Setup and Installation
 
