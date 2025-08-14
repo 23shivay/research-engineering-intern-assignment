@@ -80,8 +80,9 @@ class RAGPipeline:
             print(f"✅ Connected to Pinecone index: {INDEX_NAME}")
             
             # Load sparse encoder
-            if os.path.exists("sparse_encoder.pkl"):
-                with open("sparse_encoder.pkl", "rb") as f:
+            sparse_encoder_path = os.path.join(os.path.dirname(__file__), "sparse_encoder.pkl")
+            if os.path.exists(sparse_encoder_path):
+                with open(sparse_encoder_path, "rb") as f:
                     self.sparse_encoder = pickle.load(f)
                 print("✅ Loaded sparse encoder from file")
             else:

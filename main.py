@@ -119,15 +119,24 @@ if 'figures' not in st.session_state:
 if 'selected_query' not in st.session_state:
     st.session_state.selected_query = ""
 
+import os
+
 def check_system_status():
     """Check if all system components are available."""
+    
+    # Get the directory of the current script
+    script_dir = os.path.dirname(__file__)
+    
+    # Create robust paths for the files
+    data_file_path = os.path.join(script_dir, "data.jsonl")
+    sparse_encoder_path = os.path.join(script_dir, "sparse_encoder.pkl")
+    
     status = {
         "rag_pipeline": RAG_AVAILABLE,
-        "data_file": os.path.exists("data.jsonl"),
-        "sparse_encoder": os.path.exists("sparse_encoder.pkl"),
+        "data_file": os.path.exists(data_file_path),
+        "sparse_encoder": os.path.exists(sparse_encoder_path),
     }
-    return status
-
+    return status 
 def display_system_status():
     """Display system status in the sidebar."""
     st.sidebar.markdown("## 🔧 System Status")
