@@ -4,7 +4,7 @@ numpy
 python-dotenv
 scikit-learn
 sentence-transformers
-pinecone-client
+pinecone
 pinecone-text
 textblob
 langchain-groq
