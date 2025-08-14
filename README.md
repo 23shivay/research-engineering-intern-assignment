@@ -66,9 +66,8 @@ Follow these steps to set up the project and run the dashboard locally.
 ### Step 1: Clone the Repository
 
 ```
-git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-cd your-repository-name
-
+git clone https://github.com/23shivay/research-engineering-intern-assignment.git
+cd research-engineering-intern-assignment.git
 ```
 
 ### Step 2: Install Dependencies
