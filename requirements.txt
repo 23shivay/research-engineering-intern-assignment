@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+python-dotenv
+scikit-learn
+sentence-transformers
+pinecone-client
+pinecone-text
+textblob
+langchain-groq
+langchain-core
+plotly
+networkx
