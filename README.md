@@ -32,7 +32,7 @@ This dashboard is an ideal showcase for a research engineering internship assign
 | **Visualization** | `Plotly`, `pandas`, `numpy` | Creates interactive charts and data manipulation | 
 | **Environment** | `.env` | Manages API keys and configuration variables securely | 
 
-## 🖼️ Dashboard Screenshots
+
 ## 🖼️ Dashboard Screenshots
 
 ![screenshot](images/Screenshot%202025-08-14%20230754.png)
